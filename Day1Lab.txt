@@ -1,5 +1,6 @@
 Lab2 - Requirement1 - I need to deploy an web application on web server. There will be continous requests/clients connecting to same 
        Requirement2 - I need to deploy an web application on web server. We need to support sporadic requests 
+       https://www.virtualbox.org/wiki/Virtualization
 Lab1 - https://martinfowler.com/articles/microservices.html
        https://www.atlassian.com/devops/frameworks/calms-framework
       
