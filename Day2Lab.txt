@@ -1,1 +1,29 @@
+Lab2 - git 
+        create a new folder -  C:\demogit\demo1
+        create a file aa.txt - aaaaaaaaaaaa
+        check folder - not .git (hidden folder)
+        cmd>cd  C:\demogit\demo1
+        cmd>git // if error -> set path=c:pr...\git\bit
+        cmd>git status
+          -> not a git repo
+        cmd>git init 
+          check .git folder created in demo1
+          dir /a:
+        cmd>git status
+          -> no commits, empty, 
+        cmd>git add aa.txt
+        cmd>git status
+        modify aa.txt to add one more line
+        cmd>git status
+        cmd>git restore aa.txt 
+          check older aa.txt restored
+        modify aa.txt 
+        cmd>git status
+        cmd>git add aa.txt
+        cmd>git commit -m "first commit"
+        cmd>git status
+        cmd>git log
+        
+        ------ Add bb.txt and cc.txt and add all these files to master repo.
+        
 Lab1 - http://www.steves-internet-guide.com/ssl-certificates-explained/
