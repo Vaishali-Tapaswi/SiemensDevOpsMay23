@@ -1,3 +1,13 @@
+Confirmation
+       Tomcat Demo 
+              java -> install
+       Git (https://git-scm.com/downloads)
+              download and install 
+              required for all
+       Jenkins (https://www.jenkins.io/download/thank-you-downloading-windows-installer-stable/)
+              optional -> 
+       Gitlab 
+              create account 
 Lab4 - SonalQube 
        Download - SonarQube - 6.7.7
        Modify pom file to include 
