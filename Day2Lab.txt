@@ -3,7 +3,15 @@ Lab3 - Git + Remote Repo
         Git Web app-> Settings-> developer settings ->personal access tockens -> classic tocken
                 ->  generate ->Select scopes -> select repo 
         copy tocken 
-                
+        
+        create a new repo in GitWebApp (tmp10may)
+                public, add readme
+        cmd>cd C:\demogit\demo1
+        cmd>git remote add myaddr https://{{tocken}}@github.com/Vaishali-Tapaswi/tttt
+        cmd>git push myaddr
+        GitWebApp = tmp10may - two branches 
+                        main - readme
+                        master - aa.txt
 
 Lab2 - git 
         create a new folder -  C:\demogit\demo1
