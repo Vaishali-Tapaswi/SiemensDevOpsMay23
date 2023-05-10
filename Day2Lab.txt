@@ -1,3 +1,10 @@
+Lab3 - Git + Remote Repo 
+        create personal access tocken on github
+        Git Web app-> Settings-> developer settings ->personal access tockens -> classic tocken
+                ->  generate ->Select scopes -> select repo 
+        copy tocken 
+                
+
 Lab2 - git 
         create a new folder -  C:\demogit\demo1
         create a file aa.txt - aaaaaaaaaaaa
