@@ -1,3 +1,14 @@
+Lab4 -  Git  ,   Local Machine
+                add = git add filename, git commit -m "message"
+                add bb.txt in github
+                add cc.txt in localmahchine 
+                try pushing localmachine repo to myaddr
+                        watch error
+                call pull - watch messages
+                commit + push
+                -------->No Conflict
+                For git and local machine both - modify aa.txt 
+                        commit, push, read messages , check conflict
 Lab3 - Git + Remote Repo 
         create personal access tocken on github
         Git Web app-> Settings-> developer settings ->personal access tockens -> classic tocken
