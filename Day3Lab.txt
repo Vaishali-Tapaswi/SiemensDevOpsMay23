@@ -1,3 +1,5 @@
+Lab3 - Project -> Settings -> ci/cd-> runners->disable shared runners
+      run pipeline -> check messages on local machine
 Lab2 - GitLab runner configuration (https://docs.gitlab.com/runner/)
   Download - https://docs.gitlab.com/runner/install/
   create a folder on c:\gitlab-runner and copy the file
