@@ -1,3 +1,19 @@
+Lab5 - in same project
+       Keep javac in build stage and shift java in test stage
+       (dir > abc.txt, dir to check availability of abc.txt)
+       -Error -> for image in test state (add image tag to that stage)
+              -> class not found / abc.txt not found
+        Modify pipeline, build stage to include artifact section
+        artifacts:
+          untracked: false
+          when: on_success
+          expire_in: 30 days
+          paths:
+            - "Demo1.class"  / abc.txt
+       run 
+        success, observe message for creating/download artifacts
+       for pipeline -> download artifact
+       Observe -> artifacts only on next job
 Lab4 - Java Code -> create Calc.java in repo
       public class Calc {
 
