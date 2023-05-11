@@ -1,3 +1,17 @@
+Lab 7 - - varaiables
+  1. Declared in yml file
+    
+      build-job:       # This job runs in the build stage, which runs first.
+        stage: build
+        variables:
+           USERNAME: "...."
+
+     use  => echo "$USERNAME, $CI_PROJECT_DIR
+2. Declared in project config/settings
+  settings-> ci/cd -> variables -> new variable -> 1. just protected 2. Masked 3. combination
+    create passsword variable and print 
+    
+    
 Lab6 - https://gitlab.com/-/profile/emails -> set email address
        
 Lab5 - in same project
