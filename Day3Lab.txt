@@ -1,5 +1,4 @@
 Lab4 - Java Code -> create Calc.java in repo
-      package demo;
       public class Calc {
 
             public int add(int no1, int no2) {
