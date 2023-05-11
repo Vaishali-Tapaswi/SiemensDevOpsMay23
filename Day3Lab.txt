@@ -1,3 +1,36 @@
+Lab4 - Java Code -> create Calc.java in repo
+      package demo;
+      public class Calc {
+
+            public int add(int no1, int no2) {
+                  return no1+no2;
+            }
+            public int add(String n1, String n2) {
+                  int no1 = Integer.parseInt(n1);
+                  int no2 = Integer.parseInt(n2);
+                  return no1 + no2;
+            }
+            public int divide(String n1, String n2) {
+                  int no1 = Integer.parseInt(n1);
+                  int no2 = Integer.parseInt(n2);
+                  return no1 / no2;
+            }
+            public static void main(String[] args) {
+                  Calc c1 = new Calc();
+                  System.out.println("add of 10, 10 is " + c1.add(10,10));
+                  System.out.println("add of '15', '10' is " + c1.add("15","10"));
+                  //System.out.println("add of '15', 'a' is " + c1.add("15","a"));
+                  System.out.println("divide of '10', '2' is " + c1.divide("10","2"));
+            //	System.out.println("divide of '10', 'a' is " + c1.divide("10","a"));
+                  //System.out.println("divide of '10', '0' is " + c1.divide("10","0"));
+            }
+      }
+     Modify build job to compile code
+            javac Calc.java
+     run -> watch error 
+     Modify build job to include -> set path=...jdkbin
+     run -> successful
+      Options - Java/c/C++/C#/Node/Python
 Lab3 - Project -> Settings -> ci/cd-> runners->disable shared runners
       run pipeline -> check messages on local machine
 Lab2 - GitLab runner configuration (https://docs.gitlab.com/runner/)
