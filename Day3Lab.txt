@@ -1,0 +1,8 @@
+Lab1 - GitLab (git)
+       create a new group (May23)
+       create a new project - {groupMay23}/Demo1
+       copy files from https://github.com/Vaishali-Tapaswi/mavendemo 
+       
+      
+            
+  
