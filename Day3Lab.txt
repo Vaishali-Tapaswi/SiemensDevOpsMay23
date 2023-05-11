@@ -1,3 +1,13 @@
+Lab2 - GitLab runner configuration (https://docs.gitlab.com/runner/)
+  Download - https://docs.gitlab.com/runner/install/
+  create a folder on c:\gitlab-runner and copy the file
+    .\gitlab-runner.exe install
+     .\gitlab-runner.exe start
+  Browser -> proj1-settings -> ci/cd- > runners -> copy url and token
+  cmd>  ./gitlab-runner.exe register --url {{url}} --registration-token {{token}}
+    -> shell
+  browser -> proj1-settings -> ci/cd- > runners -> confirm your runner
+  
 Lab1 - GitLab (git)
        create a new group (May23)
        create a new project - {groupMay23}/Demo1
