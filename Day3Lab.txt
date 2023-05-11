@@ -1,3 +1,5 @@
+Lab6 - https://gitlab.com/-/profile/emails -> set email address
+       
 Lab5 - in same project
        Keep javac in build stage and shift java in test stage
        (dir > abc.txt, dir to check availability of abc.txt)
